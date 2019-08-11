@@ -1,5 +1,10 @@
 input {
-user-select: contain;
+height: 65px;
+width: 100%;
+margin: 0 2px;
+font-size: 14px;
+padding: 0 10px;
+
 }
 ul{
   padding: 0;
@@ -15,4 +20,17 @@ li {
   border: 1px solid rgba(0, 0, 0, 0.19);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   word-wrap: break-word;
+}
+#buttonSend {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #fdd639;
+  border: none;
+  font-family: "PT Sans";
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 700;
 }
