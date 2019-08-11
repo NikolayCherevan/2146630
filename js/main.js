@@ -1,17 +1,5 @@
-$(document).ready(function(){
+document.getElementById('buttonSend').onclick = function (){
+  var parentElement = document.getElementById('ul-code');
+var elemdiv = parentElement.insertAdjacentHTML('beforeend',"<li>"+document.getElementById('otziv').value+"</li>");
 
-  $('.nav-toggle').on('click', function(e){
-    e.preventDefault();
-    $('.nav-mobile ul').toggleClass('is-open')
-  })
-
-  $('.my-class').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear'
-  });
-
-})
-
+}

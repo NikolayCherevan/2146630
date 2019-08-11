@@ -1,0 +1,51 @@
+.main-foto>img {
+width: 100px;
+height: 100px;
+position: relative;
+}
+figure {
+  margin: 0;
+}
+.profile-title {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+}
+.profile-description {
+  color: #808080;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.skills {
+  margin-left: 14px;
+  display: flex;
+  justify-content: flex-end;
+  color: #333333;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.white-space {
+  background-color: white;
+  position: absolute;
+  right: 84%;
+  width: 86px;
+  z-index: -1;
+  height: 90px;
+  margin-top: -10px;
+}
+.clmn-sum {
+  display: flex;
+  justify-content: space-between;
+  color: #333333;
+  font-family: "Arial";
+  font-size: 14px;
+  font-weight: 600;
+  border-top: solid 0.1px #C0C0C0;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+#ul-code {
+  padding: 0;
+}
