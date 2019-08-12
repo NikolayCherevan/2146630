@@ -19,8 +19,12 @@ figure {
 }
 .skills {
   margin-left: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   color: #333333;
   font-size: 12px;
   font-weight: 400;
@@ -36,8 +40,12 @@ figure {
   margin-top: -10px;
 }
 .clmn-sum {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   color: #333333;
   font-family: "Arial";
   font-size: 14px;
